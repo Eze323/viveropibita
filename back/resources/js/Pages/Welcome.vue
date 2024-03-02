@@ -23,8 +23,8 @@ defineProps({
             </template>
         </div>
 
-                <h1>Hola mundo</h1>
-                {{$page.props}}
+                <h1>Bienvenidos a la administración del vivero El Nono</h1>
+                
        </div>
 </template>
 

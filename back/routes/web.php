@@ -26,5 +26,7 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
     Route::resource('/roles',RoleController::class);
+    
+
 });
 
